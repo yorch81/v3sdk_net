@@ -1,0 +1,7 @@
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/bin/Debug/V3Sdk.dll.mdb
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/bin/Debug/V3Sdk.dll
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/obj/Debug/V3Sdk.dll
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/obj/Debug/V3Sdk.dll.mdb
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/bin/Debug/Newtonsoft.Json.dll
+/home/yorch/Projects/dotnet/v3sdk_net/V3Sdk/bin/Debug/nunit.framework.dll

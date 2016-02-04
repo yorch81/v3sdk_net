@@ -1,0 +1,8 @@
+*~
+.*.sw*
+*.exe
+*.dll
+*.cache
+*.pdb
+*.cnf
+packages/
