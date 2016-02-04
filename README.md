@@ -5,13 +5,15 @@ V3ctor WareHouse .NET Sdk.
 
 ## Requirements ##
 * [.NET Framework](http://www.microsoft.com/es-mx/download/details.aspx?id=30653)
+* [Mono](http://www.mono-project.com/)
 * [V3ctor WareHouse](https://github.com/yorch81/v3ctorwh)
 
 ## Developer Documentation ##
 In the Code.
 
 ## Installation ##
-Find in nuget.org.
+Add nuget reference:
+	PM> Install-Package V3Sdk.dll
 
 ## Examples ##
 ~~~
