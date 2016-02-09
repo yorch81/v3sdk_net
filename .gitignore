@@ -4,5 +4,6 @@
 *.dll
 *.cache
 *.pdb
+*.mdb
 *.cnf
 packages/

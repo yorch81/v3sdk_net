@@ -112,7 +112,7 @@ namespace V3Sdk
 		/// <summary>
 		/// Finds an object by Id
 		/// </summary>
-		/// <returns>The object.</returns>
+		/// <returns>V3ctor WareHouse object.</returns>
 		/// <param name="entity">Entity.</param>
 		/// <param name="_id">Identifier.</param>
 		public JObject FindObject (string entity, string _id)
@@ -205,7 +205,7 @@ namespace V3Sdk
 		/// <summary>
 		/// Creates New Json Object.
 		/// </summary>
-		/// <returns>The New Object.</returns>
+		/// <returns>V3ctor WareHouse New object..</returns>
 		/// <param name="entity">Entity.</param>
 		/// <param name="JsonObject">Json object.</param>
 		public JObject NewObject (string entity, JObject JsonObject)
@@ -215,6 +215,9 @@ namespace V3Sdk
 
 			WebRequest request;
 			HttpWebResponse response = null;
+
+			// Remove _id
+			JsonObject.Remove ("_id");
 
 			try
 			{
@@ -258,7 +261,7 @@ namespace V3Sdk
 		/// <summary>
 		/// Updates the object.
 		/// </summary>
-		/// <returns>The object.</returns>
+		/// <returns>true if success false error</returns>
 		/// <param name="entity">Entity.</param>
 		/// <param name="_id">Identifier.</param>
 		/// <param name="JsonObject">Json object.</param>
@@ -270,6 +273,9 @@ namespace V3Sdk
 
 			WebRequest request;
 			HttpWebResponse response = null;
+
+			// Remove _id
+			JsonObject.Remove ("_id");
 
 			try
 			{
@@ -317,7 +323,7 @@ namespace V3Sdk
 		/// <summary>
 		/// Deletes the object.
 		/// </summary>
-		/// <returns>The object.</returns>
+		/// <returns>true if success false error</returns>
 		/// <param name="entity">Entity.</param>
 		/// <param name="_id">Identifier.</param>
 		public bool DeleteObject (string entity, string _id)
