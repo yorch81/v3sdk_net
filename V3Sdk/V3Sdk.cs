@@ -7,7 +7,7 @@ using Newtonsoft.Json.Linq;
 //
 // V3Sdk V3ctor WareHouse .NET SDK
 //
-// Copyright 2015 Jorge Alberto Ponce Turrubiates
+// Copyright 2016 Jorge Alberto Ponce Turrubiates
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
